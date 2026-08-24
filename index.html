@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تكات | مطعم سوري أصيل - الشارقة</title>
+  <meta name="description" content="مطعم تكات - أفضل المأكولات السورية الأصيلة في ميغا مول الشارقة. شاورما، مشاوي، كباب، وأكثر. افتح يومياً حتى منتصف الليل." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =================== NAVBAR =================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <div class="logo-placeholder" id="logo-placeholder">
+          <span class="logo-text-main">تكات</span>
+          <span class="logo-text-sub">TAKKAT</span>
+        </div>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active" id="nav-home">الرئيسية</a></li>
+        <li><a href="#menu" class="nav-link" id="nav-menu">القائمة</a></li>
+        <li><a href="#about" class="nav-link" id="nav-about">عن المطعم</a></li>
+        <li><a href="#reviews" class="nav-link" id="nav-reviews">المراجعات</a></li>
+        <li><a href="#contact" class="nav-link" id="nav-contact">اتصل بنا</a></li>
+      </ul>
+      <a href="tel:+971582829837" class="nav-order-btn" id="nav-order-btn">اطلب الآن 🍽️</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- =================== MOBILE MENU =================== -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#home" class="mob-link" id="mob-home">الرئيسية</a></li>
+      <li><a href="#menu" class="mob-link" id="mob-menu">القائمة</a></li>
+      <li><a href="#about" class="mob-link" id="mob-about">عن المطعم</a></li>
+      <li><a href="#reviews" class="mob-link" id="mob-reviews">المراجعات</a></li>
+      <li><a href="#contact" class="mob-link" id="mob-contact">اتصل بنا</a></li>
+    </ul>
+  </div>
+
+  <!-- =================== HERO =================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="assets/images/hero_bg.jpg" alt="مطعم تكات - مأكولات سورية" class="hero-img" />
+      <div class="hero-overlay"></div>
+      <!-- Floating particles -->
+      <div class="particle p1"></div>
+      <div class="particle p2"></div>
+      <div class="particle p3"></div>
+      <div class="particle p4"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge" id="hero-badge">
+        <span class="badge-dot"></span>
+        مفتوح الآن · يغلق منتصف الليل
+      </div>
+      <h1 class="hero-title" id="hero-title">
+        <span class="title-arabic">مطعم تكات</span>
+        <span class="title-english">TAKKAT RESTAURANT</span>
+      </h1>
+      <p class="hero-subtitle" id="hero-subtitle">
+        أصالة المطبخ السوري في قلب الشارقة
+      </p>
+      <div class="hero-rating" id="hero-rating">
+        <div class="stars">
+          <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star half">★</span>
+        </div>
+        <span class="rating-num">4.7</span>
+        <span class="rating-count">(169 مراجعة)</span>
+      </div>
+      <div class="hero-tags" id="hero-tags">
+        <span class="tag">🔥 مأكولات سورية</span>
+        <span class="tag">💰 1–50 د.إ</span>
+        <span class="tag">🏬 ميغا مول الشارقة</span>
+      </div>
+      <div class="hero-actions" id="hero-actions">
+        <a href="#menu" class="btn-primary" id="btn-view-menu">استعرض القائمة</a>
+        <a href="tel:+971582829837" class="btn-secondary" id="btn-call">اتصل بنا</a>
+      </div>
+    </div>
+    <div class="hero-scroll" id="hero-scroll">
+      <div class="scroll-indicator"></div>
+    </div>
+  </section>
+
+  <!-- =================== STATS BAR =================== -->
+  <section class="stats-bar" id="stats-bar">
+    <div class="stats-container">
+      <div class="stat-item" id="stat-rating">
+        <span class="stat-icon">⭐</span>
+        <span class="stat-value">4.7</span>
+        <span class="stat-label">تقييم عام</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" id="stat-reviews">
+        <span class="stat-icon">💬</span>
+        <span class="stat-value">169+</span>
+        <span class="stat-label">مراجعة</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" id="stat-hours">
+        <span class="stat-icon">🕐</span>
+        <span class="stat-value">يومياً</span>
+        <span class="stat-label">حتى منتصف الليل</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" id="stat-price">
+        <span class="stat-icon">💎</span>
+        <span class="stat-value">1–50 د.إ</span>
+        <span class="stat-label">للشخص الواحد</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" id="stat-delivery">
+        <span class="stat-icon">🚗</span>
+        <span class="stat-value">توصيل</span>
+        <span class="stat-label">خدمة التوصيل متاحة</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== MENU =================== -->
+  <section class="menu-section" id="menu">
+    <div class="section-header">
+      <span class="section-tag">قائمة الطعام</span>
+      <h2 class="section-title">اكتشف نكهات تكات</h2>
+      <p class="section-desc">تشكيلة متنوعة من المأكولات السورية الأصيلة المعدة بأجود المكونات</p>
+    </div>
+
+    <!-- Category Tabs -->
+    <div class="menu-tabs" id="menu-tabs">
+      <button class="menu-tab active" data-cat="featured" id="tab-featured">🔥 المميزة</button>
+      <button class="menu-tab" data-cat="takkat-meals" id="tab-takkat-meals">🥙 وجبات تكات</button>
+      <button class="menu-tab" data-cat="takkat-grills" id="tab-takkat-grills">🔥 مشاوي تكات</button>
+      <button class="menu-tab" data-cat="shawarma" id="tab-shawarma">🌯 شاورما تكات</button>
+      <button class="menu-tab" data-cat="cold-apps" id="tab-cold-apps">🥗 مقبلات باردة</button>
+      <button class="menu-tab" data-cat="hot-apps" id="tab-hot-apps">🌶️ مقبلات ساخنة</button>
+      <button class="menu-tab" data-cat="salads" id="tab-salads">🥗 السلطات</button>
+      <button class="menu-tab" data-cat="drinks" id="tab-drinks">🥤 مشروبات</button>
+    </div>
+
+    <!-- Menu Items Grid -->
+    <div class="menu-grid" id="menu-grid">
+
+      <!-- FEATURED -->
+      <div class="menu-card featured-card" data-cat="featured" id="card-shawarma-meal">
+        <div class="card-img-wrap">
+          <img src="assets/images/shawarma_meal.jpg" alt="وجبة شاورما دجاج" class="card-img" />
+          <span class="card-badge popular">الأكثر طلباً</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">وجبة شاورما دجاج</h3>
+          <p class="card-desc">شاورما دجاج عربية مع بطاطس مقلية وصلصة ثومية وشاورما مشكلة</p>
+          <div class="card-footer">
+            <span class="card-price">26 د.إ</span>
+            <button class="add-btn" id="add-shawarma-meal" onclick="addToCart(this, 'وجبة شاورما دجاج', 26)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card featured-card" data-cat="featured" id="card-mix-grill">
+        <div class="card-img-wrap">
+          <img src="assets/images/mix_grill.jpg" alt="مشاوي مشكلة" class="card-img" />
+          <span class="card-badge chef">اختيار الشيف</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">مشاوي مشكلة</h3>
+          <p class="card-desc">تشكيلة من أفضل المشاوي السورية الأصيلة مع الأرز والخبز العربي</p>
+          <div class="card-footer">
+            <span class="card-price">42 د.إ</span>
+            <button class="add-btn" id="add-mix-grill" onclick="addToCart(this, 'مشاوي مشكلة', 42)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card featured-card" data-cat="featured" id="card-tacos">
+        <div class="card-img-wrap">
+          <img src="assets/images/tacos_chicken.jpg" alt="تاكو دجاج" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">تاكو دجاج</h3>
+          <p class="card-desc">4 قطع تاكو شاورما مع خس وصلصة خاصة ومخللات وبطاطس مقلية</p>
+          <div class="card-footer">
+            <span class="card-price">29 د.إ</span>
+            <button class="add-btn" id="add-tacos" onclick="addToCart(this, 'تاكو دجاج', 29)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card featured-card" data-cat="featured" id="card-shish-tawook">
+        <div class="card-img-wrap">
+          <img src="assets/images/shish_tawook.jpg" alt="شيش طاووق" class="card-img" />
+          <span class="card-badge new">جديد</span>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">طبق شيش طاووق</h3>
+          <p class="card-desc">ثلاثة أسياخ دجاج طري مشوية مع أرز، سلطة طازجة وبطاطس مقلية وصلصة ثوم</p>
+          <div class="card-footer">
+            <span class="card-price">42 د.إ</span>
+            <button class="add-btn" id="add-shish-tawook" onclick="addToCart(this, 'شيش طاووق', 42)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card featured-card" data-cat="featured" id="card-fatoush">
+        <div class="card-img-wrap">
+          <img src="assets/images/fatoush_salad.jpg" alt="سلطة فتوش" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">سلطة فتوش</h3>
+          <p class="card-desc">سلطة طازجة بالخضار المشكلة والخبز المحمص المقرمش مع تتبيلة الرمان</p>
+          <div class="card-footer">
+            <span class="card-price">17 د.إ</span>
+            <button class="add-btn" id="add-fatoush" onclick="addToCart(this, 'سلطة فتوش', 17)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card featured-card" data-cat="featured" id="card-kebab-takkat">
+        <div class="card-img-wrap">
+          <img src="assets/images/kebab_takkat.jpg" alt="كباب تكات" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">كباب تكات</h3>
+          <p class="card-desc">أسياخ كباب لحم طري مشوية مع أرز فلفلي وسلطة طازجة وبطاطس مقلية</p>
+          <div class="card-footer">
+            <span class="card-price">44 د.إ</span>
+            <button class="add-btn" id="add-kebab-takkat" onclick="addToCart(this, 'كباب تكات', 44)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAKKAT MEALS -->
+      <div class="menu-card" data-cat="takkat-meals" id="card-chicken-fajita">
+        <div class="card-img-wrap">
+          <img src="assets/images/burger_meal.jpg" alt="ساندويتش فاهيتا دجاج" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">ساندويتش فاهيتا دجاج</h3>
+          <p class="card-desc">دجاج وفلفل ألوان وجبن في خبز التورتيلا مع بطاطس وصلصة ومخللات</p>
+          <div class="card-footer">
+            <span class="card-price">26 د.إ</span>
+            <button class="add-btn" id="add-fajita" onclick="addToCart(this, 'ساندويتش فاهيتا دجاج', 26)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="takkat-meals" id="card-philadelphia">
+        <div class="card-img-wrap">
+          <img src="assets/images/burger_meal.jpg" alt="ساندويتش فيلادلفيا" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">ساندويتش فيلادلفيا</h3>
+          <p class="card-desc">شرائح لحم مع فلفل ملون وجبن في خبز التورتيلا مع بطاطس وصلصة</p>
+          <div class="card-footer">
+            <span class="card-price">26 د.إ</span>
+            <button class="add-btn" id="add-philadelphia" onclick="addToCart(this, 'ساندويتش فيلادلفيا', 26)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="takkat-meals" id="card-burger-tortilla">
+        <div class="card-img-wrap">
+          <img src="assets/images/burger_meal.jpg" alt="برجر مشوي في التورتيلا" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">برجر لحم مشوي في التورتيلا</h3>
+          <p class="card-desc">برجر لحم مشوي في خبز التورتيلا مع البطاطس المقلية الذهبية</p>
+          <div class="card-footer">
+            <span class="card-price">32 د.إ</span>
+            <button class="add-btn" id="add-burger-tortilla" onclick="addToCart(this, 'برجر لحم مشوي في التورتيلا', 32)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="takkat-meals" id="card-nuggets-kids">
+        <div class="card-img-wrap">
+          <img src="assets/images/nuggets_meal.jpg" alt="وجبة نجتس أطفال" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">وجبة نجتس أطفال</h3>
+          <p class="card-desc">ثماني قطع نجتس دجاج ذهبية مع بطاطس مقلية ساخنة وعصير أطفال</p>
+          <div class="card-footer">
+            <span class="card-price">25 د.إ</span>
+            <button class="add-btn" id="add-nuggets-kids" onclick="addToCart(this, 'وجبة نجتس أطفال', 25)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="takkat-meals" id="card-nuggets-8">
+        <div class="card-img-wrap">
+          <img src="assets/images/nuggets_meal.jpg" alt="نجتس 8 قطع" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">نجتس أطفال 8 قطع</h3>
+          <p class="card-desc">ثماني قطع نجتس دجاج ذهبية مقرمشة مع صلصة للتغميس</p>
+          <div class="card-footer">
+            <span class="card-price">19 د.إ</span>
+            <button class="add-btn" id="add-nuggets-8" onclick="addToCart(this, 'نجتس أطفال 8 قطع', 19)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAKKAT GRILLS -->
+      <div class="menu-card" data-cat="takkat-grills" id="card-shish-tawook-grills">
+        <div class="card-img-wrap">
+          <img src="assets/images/shish_tawook.jpg" alt="شيش طاووق" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">طبق شيش طاووق</h3>
+          <p class="card-desc">ثلاثة أسياخ دجاج مشوية مع أرز وسلطة وبطاطس وصلصة ثوم</p>
+          <div class="card-footer">
+            <span class="card-price">42 د.إ</span>
+            <button class="add-btn" id="add-shish-grills" onclick="addToCart(this, 'شيش طاووق', 42)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="takkat-grills" id="card-kebab-grills">
+        <div class="card-img-wrap">
+          <img src="assets/images/kebab_takkat.jpg" alt="كباب تكات" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">كباب تكات</h3>
+          <p class="card-desc">أربعة أسياخ كباب لحم طري مشوية بإتقان مع أرز وسلطة وبطاطس</p>
+          <div class="card-footer">
+            <span class="card-price">44 د.إ</span>
+            <button class="add-btn" id="add-kebab-grills" onclick="addToCart(this, 'كباب تكات', 44)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="takkat-grills" id="card-mix-grills">
+        <div class="card-img-wrap">
+          <img src="assets/images/mix_grill.jpg" alt="مشاوي مشكلة" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">مشاوي مشكلة</h3>
+          <p class="card-desc">تشكيلة أسياخ لحم وشيش طاووق وكفتة مع الأرز والخضار المشوية</p>
+          <div class="card-footer">
+            <span class="card-price">42 د.إ</span>
+            <button class="add-btn" id="add-mix-grills" onclick="addToCart(this, 'مشاوي مشكلة', 42)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SHAWARMA -->
+      <div class="menu-card" data-cat="shawarma" id="card-shawarma-big">
+        <div class="card-img-wrap">
+          <img src="assets/images/shawarma_meal.jpg" alt="ساندويتش شاورما دجاج كبير" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">ساندويتش شاورما دجاج كبير</h3>
+          <p class="card-desc">ساندويتش شاورما دجاج كبير مع ثوم ومخللات</p>
+          <div class="card-footer">
+            <span class="card-price">14 د.إ</span>
+            <button class="add-btn" id="add-shawarma-big" onclick="addToCart(this, 'ساندويتش شاورما دجاج كبير', 14)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="shawarma" id="card-shawarma-meal-2">
+        <div class="card-img-wrap">
+          <img src="assets/images/shawarma_meal.jpg" alt="وجبة شاورما دجاج" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">وجبة شاورما دجاج</h3>
+          <p class="card-desc">شاورما دجاج عربية مع بطاطس مقلية وشاورما مشكلة وصلصات</p>
+          <div class="card-footer">
+            <span class="card-price">26 د.إ</span>
+            <button class="add-btn" id="add-shawarma-meal-2" onclick="addToCart(this, 'وجبة شاورما دجاج', 26)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- COLD APPETIZERS -->
+      <div class="menu-card" data-cat="cold-apps" id="card-hummus">
+        <div class="card-img-wrap">
+          <img src="assets/images/fatoush_salad.jpg" alt="حمص" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">حمص</h3>
+          <p class="card-desc">حمص كريمي طازج مزين بزيت الزيتون وبودرة الفليفلة الحمراء</p>
+          <div class="card-footer">
+            <span class="card-price">10 د.إ</span>
+            <button class="add-btn" id="add-hummus" onclick="addToCart(this, 'حمص', 10)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="cold-apps" id="card-yalanji">
+        <div class="card-img-wrap">
+          <img src="assets/images/fatoush_salad.jpg" alt="يلانجي" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">يلانجي</h3>
+          <p class="card-desc">أوراق عنب محشوة بالأرز والبقدونس والطماطم ومتبلة بعصير الليمون</p>
+          <div class="card-footer">
+            <span class="card-price">15 د.إ</span>
+            <button class="add-btn" id="add-yalanji" onclick="addToCart(this, 'يلانجي', 15)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- HOT APPETIZERS -->
+      <div class="menu-card" data-cat="hot-apps" id="card-grilled-kebbeh">
+        <div class="card-img-wrap">
+          <img src="assets/images/kebab_takkat.jpg" alt="كبة مشوية" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">كبة مشوية</h3>
+          <p class="card-desc">كبة لحم مشوية على الفحم محشوة بالبصل والصنوبر والتوابل السورية</p>
+          <div class="card-footer">
+            <span class="card-price">18 د.إ</span>
+            <button class="add-btn" id="add-kebbeh" onclick="addToCart(this, 'كبة مشوية', 18)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="hot-apps" id="card-french-fries">
+        <div class="card-img-wrap">
+          <img src="assets/images/nuggets_meal.jpg" alt="بطاطس مقلية" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">بطاطس مقلية</h3>
+          <p class="card-desc">بطاطس مقلية ذهبية مقرمشة متبلة بالتوابل الخاصة مع صلصة للتغميس</p>
+          <div class="card-footer">
+            <span class="card-price">10 د.إ</span>
+            <button class="add-btn" id="add-fries" onclick="addToCart(this, 'بطاطس مقلية', 10)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SALADS -->
+      <div class="menu-card" data-cat="salads" id="card-fatoush-salad">
+        <div class="card-img-wrap">
+          <img src="assets/images/fatoush_salad.jpg" alt="سلطة فتوش" class="card-img" />
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">سلطة فتوش</h3>
+          <p class="card-desc">سلطة مصنوعة من الخضار المشكلة والخبز المحمص المقرمش</p>
+          <div class="card-footer">
+            <span class="card-price">17 د.إ</span>
+            <button class="add-btn" id="add-fatoush-salad" onclick="addToCart(this, 'سلطة فتوش', 17)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- DRINKS -->
+      <div class="menu-card" data-cat="drinks" id="card-pepsi">
+        <div class="card-img-wrap">
+          <div class="drink-placeholder pepsi-bg">🥤</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">بيبسي</h3>
+          <p class="card-desc">مشروب غازي منعش</p>
+          <div class="card-footer">
+            <span class="card-price">5 د.إ</span>
+            <button class="add-btn" id="add-pepsi" onclick="addToCart(this, 'بيبسي', 5)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-card" data-cat="drinks" id="card-7up">
+        <div class="card-img-wrap">
+          <div class="drink-placeholder sevenup-bg">🧃</div>
+        </div>
+        <div class="card-body">
+          <h3 class="card-title">سفن أب</h3>
+          <p class="card-desc">مشروب غازي غير محتوٍ على الكافيين</p>
+          <div class="card-footer">
+            <span class="card-price">5 د.إ</span>
+            <button class="add-btn" id="add-7up" onclick="addToCart(this, 'سفن أب', 5)">+</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =================== FLOATING CART =================== -->
+  <div class="cart-widget" id="cart-widget" style="display:none;">
+    <div class="cart-icon" id="cart-icon" onclick="toggleCart()">
+      🛒
+      <span class="cart-count" id="cart-count">0</span>
+    </div>
+    <div class="cart-panel" id="cart-panel">
+      <div class="cart-header">
+        <h3>سلة الطلب</h3>
+        <button class="cart-close" id="cart-close" onclick="toggleCart()">✕</button>
+      </div>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="cart-total" id="cart-total">
+        <span>الإجمالي:</span>
+        <span id="total-price">0 د.إ</span>
+      </div>
+      <a href="tel:+971582829837" class="cart-order-btn" id="cart-order-btn">اتصل للطلب: 058 282 9837</a>
+    </div>
+  </div>
+
+  <!-- =================== ABOUT =================== -->
+  <section class="about-section" id="about">
+    <div class="about-container">
+      <div class="about-content">
+        <span class="section-tag">عن المطعم</span>
+        <h2 class="about-title">نكهة سورية أصيلة في الشارقة</h2>
+        <p class="about-text">
+          مطعم تكات هو وجهتك الأولى للمأكولات السورية الأصيلة في قلب ميغا مول الشارقة. 
+          نقدم لك تجربة طعام استثنائية تجمع بين الأصالة والجودة العالية، من الشاورما الطازجة 
+          إلى المشاوي المشكلة والمقبلات السورية الشهيرة.
+        </p>
+        <p class="about-text">
+          يعمل المطعم يومياً من الصباح وحتى منتصف الليل، ونوفر خدمات متعددة تشمل 
+          الجلوس داخل المكان، الإيصال إلى السيارة، وخدمة التوصيل.
+        </p>
+        <div class="about-features">
+          <div class="feature" id="feat-dine">
+            <span class="feat-icon">🪑</span>
+            <div>
+              <strong>جلوس داخل المكان</strong>
+              <p>أجواء مريحة داخل ميغا مول</p>
+            </div>
+          </div>
+          <div class="feature" id="feat-curbside">
+            <span class="feat-icon">🚗</span>
+            <div>
+              <strong>الإيصال إلى السيارة</strong>
+              <p>خدمة مريحة دون النزول</p>
+            </div>
+          </div>
+          <div class="feature" id="feat-delivery">
+            <span class="feat-icon">🛵</span>
+            <div>
+              <strong>خدمة التوصيل</strong>
+              <p>توصيل سريع لباب منزلك</p>
+            </div>
+          </div>
+          <div class="feature" id="feat-open">
+            <span class="feat-icon">🕐</span>
+            <div>
+              <strong>مفتوح يومياً</strong>
+              <p>حتى منتصف الليل 12:00 ص</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-image-wrap">
+        <img src="assets/images/mix_grill.jpg" alt="مطعم تكات - مأكولات سورية" class="about-img" />
+        <div class="about-badge-float" id="about-badge">
+          <span class="badge-num">4.7</span>
+          <span class="badge-stars">★★★★★</span>
+          <span class="badge-label">169+ تقييم</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================== REVIEWS =================== -->
+  <section class="reviews-section" id="reviews">
+    <div class="section-header">
+      <span class="section-tag">آراء الزبائن</span>
+      <h2 class="section-title">ماذا يقول زبائننا</h2>
+      <div class="overall-rating" id="overall-rating">
+        <span class="big-rating">4.7</span>
+        <div class="rating-breakdown">
+          <div class="stars-big">★★★★★</div>
+          <span>مبني على 169 مراجعة</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews-grid" id="reviews-grid">
+
+      <div class="review-card" id="review-1">
+        <div class="review-header">
+          <div class="reviewer-avatar" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">ر</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">رشا أحمد</span>
+            <span class="reviewer-badge">مرشد محلي · 62 مراجعة</span>
+          </div>
+          <div class="review-stars">★★★★☆</div>
+        </div>
+        <p class="review-text">
+          "جربت مالهم الشاورما وكطعم كانت جيدة بس الكمية وحجم الشاورما كان جداً صغيرة وخاصة مقارنة بالسعر، كان ممكن تكون أكبر."
+        </p>
+        <span class="review-date">قبل شهرين</span>
+      </div>
+
+      <div class="review-card" id="review-2">
+        <div class="review-header">
+          <div class="reviewer-avatar" style="background: linear-gradient(135deg, #2ecc71, #27ae60);">م</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">Mallouhi</span>
+            <span class="reviewer-badge">مرشد محلي · 108 مراجعات · 1,175 صورة</span>
+          </div>
+          <div class="review-stars">★★★★★</div>
+        </div>
+        <p class="review-text">
+          "يقع مطعم 'تكات' في ردهة الطعام بمركز ميغا مول، ويقدم تشكيلة متنوعة من الأكلات السورية الشهية، بما في ذلك الشاورما، المشاوي، الشيش طاووق، الكباب، التكة، اللحم، والشجبات. بالإضافة إلى ذلك، يقدم المطعم مجموعة من المقبلات والسلطات العربية."
+        </p>
+        <span class="review-date">قبل سنة</span>
+      </div>
+
+      <div class="review-card" id="review-3">
+        <div class="review-header">
+          <div class="reviewer-avatar" style="background: linear-gradient(135deg, #9b59b6, #8e44ad);">R</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">Royal Raja</span>
+            <span class="reviewer-badge">مرشد محلي · 128 مراجعة · 744 صورة</span>
+          </div>
+          <div class="review-stars">★★★★★</div>
+        </div>
+        <p class="review-text">
+          "Very Delicious Food! 🍱 طعام لذيذ جداً، تجربة رائعة بالجلوس داخل المطعم وخدمة ممتازة من الفريق."
+        </p>
+        <span class="review-date">قبل 5 أشهر</span>
+      </div>
+
+      <div class="review-card" id="review-4">
+        <div class="review-header">
+          <div class="reviewer-avatar" style="background: linear-gradient(135deg, #f39c12, #e67e22);">أ</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">أحمد الشمري</span>
+            <span class="reviewer-badge">مراجع</span>
+          </div>
+          <div class="review-stars">★★★★★</div>
+        </div>
+        <p class="review-text">
+          "Great place + nice people &amp; best food varieties! مكان رائع وناس طيبة وأفضل تشكيلة طعام في المنطقة."
+        </p>
+        <span class="review-date">قبل سنة</span>
+      </div>
+
+    </div>
+
+    <div class="review-cta" id="review-cta">
+      <p>زرت مطعمنا؟ شاركنا تجربتك</p>
+      <a href="https://maps.google.com" target="_blank" class="btn-outline" id="btn-write-review">اكتب مراجعة على Google</a>
+    </div>
+  </section>
+
+  <!-- =================== CONTACT =================== -->
+  <section class="contact-section" id="contact">
+    <div class="section-header light">
+      <span class="section-tag light">تواصل معنا</span>
+      <h2 class="section-title light">زورنا أو تواصل معنا</h2>
+    </div>
+    <div class="contact-grid" id="contact-grid">
+
+      <div class="contact-card" id="contact-location">
+        <div class="contact-icon">📍</div>
+        <h3>الموقع</h3>
+        <p>ميغا مول - طريق الاستقلال</p>
+        <p>حي القاسمية - الشارقة</p>
+        <p>الإمارات العربية المتحدة</p>
+        <a href="https://maps.google.com/?q=Takkat+Restaurant+Mega+Mall+Sharjah" target="_blank" class="contact-link" id="contact-map-link">افتح على خرائط Google</a>
+      </div>
+
+      <div class="contact-card" id="contact-phone">
+        <div class="contact-icon">📞</div>
+        <h3>اتصل بنا</h3>
+        <p>للطلب والاستفسار</p>
+        <a href="tel:+971582829837" class="contact-link phone-link" id="contact-phone-link">058 282 9837</a>
+        <p class="contact-sub">+971 58 282 9837</p>
+      </div>
+
+      <div class="contact-card" id="contact-hours">
+        <div class="contact-icon">🕐</div>
+        <h3>أوقات العمل</h3>
+        <p>مفتوح يومياً</p>
+        <div class="hours-display">
+          <span class="open-badge">مفتوح الآن</span>
+          <span>حتى 12:00 ص</span>
+        </div>
+        <p class="contact-sub">ساعات ذروة: المساء</p>
+      </div>
+
+      <div class="contact-card" id="contact-code">
+        <div class="contact-icon">🗺️</div>
+        <h3>كود الموقع</h3>
+        <p>Plus Code:</p>
+        <p class="plus-code">89WX+2G الشارقة</p>
+        <a href="https://maps.google.com/?q=89WX%2B2G+Sharjah" target="_blank" class="contact-link" id="contact-code-link">افتح على الخريطة</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =================== FOOTER =================== -->
+  <footer class="footer" id="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <span class="footer-logo-text">تكات</span>
+        <span class="footer-logo-sub">TAKKAT RESTAURANT</span>
+      </div>
+      <p class="footer-tagline">أصالة المطبخ السوري · الشارقة، الإمارات</p>
+      <div class="footer-links" id="footer-links">
+        <a href="#home" id="footer-home">الرئيسية</a>
+        <a href="#menu" id="footer-menu">القائمة</a>
+        <a href="#about" id="footer-about">عن المطعم</a>
+        <a href="#reviews" id="footer-reviews">المراجعات</a>
+        <a href="#contact" id="footer-contact">اتصل بنا</a>
+      </div>
+      <div class="footer-contact-info">
+        <span>📞 058 282 9837</span>
+        <span>📍 ميغا مول، الشارقة</span>
+        <span>🕐 مفتوح حتى 12 ص</span>
+      </div>
+      <p class="footer-copy">© 2026 مطعم تكات. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
